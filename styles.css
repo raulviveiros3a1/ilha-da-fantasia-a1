@@ -1,0 +1,33 @@
+body {
+    background-color: #FF0033;
+    color: #C70039;
+    font-family: "Titillium Web", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #E74C3C;
+    color: #C70039;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
